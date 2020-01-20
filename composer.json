@@ -1,0 +1,17 @@
+{
+    "name": "ben/projet1",
+    "authors": [
+        {
+            "name": "BP",
+            "email": "paspense@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"Framework\\": "src/Framework"
+    	}
+	},
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
